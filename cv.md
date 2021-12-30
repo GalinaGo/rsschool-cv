@@ -1,5 +1,7 @@
 #Gonchrenko Galina
-##Contact: discord-Galina#1872
+
+##Contact 
+Discord: Galina#1872
 
 ###About me
 My goal is to become a JS developer. I have an analytical mindset. I love learning and learning new things.
@@ -15,6 +17,9 @@ My goal is to become a JS developer. I have an analytical mindset. I love learni
 
 ###Education
 RS School 2021
+
+###English
+A2
 
 
 
