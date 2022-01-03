@@ -5,38 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>CV1</title>
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
   </head>
   <body>
     <div class="container">
-      <div class="main">
-        <h1>Gonchrenko Galina</h1>
-        <h2>Contact</h2>
-        <p><strong>Discord:</strong> Galina#1872</p>
-        <h3>About me</h3>
-        <p>
-          My goal is to become a JS developer. I have an analytical mindset. I
-          love learning and learning new things.
-        </p>
-        <h3>Skills</h3>
-        <ul class="skills">
-          <li>Html</li>
-          <li>Css</li>
-          <li>JS</li>
-          <li>Git</li>
-        </ul>
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#summary" class="nav-link">Summary</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">Code</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#courses" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#english" class="nav-link">English</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container main-container">
+          <section class="section profile" id="profile">
+            <img src="my_photo.jpg" alt="my_photo" width="250" />
+            <div class="section-profile-title">
+              <h1 class="section-title">Gonchrenko Galina</h1>
+              <p>Junior JS developer</p>
+            </div>
+          </section>
 
-        <h3>Work experience</h3>
-        <a href="https://github.com/GalinaGo/rsschool-cv/edit/gh-pages/cv.md"
-          >CV</a
-        >
+          <section class="section summary" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>
+              My goal is to become a JS developer. I have an analytical mindset.
+              I love learning and learning new things.
+            </p>
+          </section>
 
-        <h3>Education</h3>
-        <p>RS School 2021</p>
+          <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <code>
+              function factorial(n) { if(n &lt; 0) return null; if (n &lt;= 1)
+              return 1; return n * factorial(n-1); }
+            </code>
+          </section>
 
-        <h3>English</h3>
-        <p>A2</p>
-      </div>
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contacts">
+              <li>
+                Github: <a href="https://github.com/GalinaGo">GalinaGo</a>
+              </li>
+              <li>
+                Discord:
+                <a href="https://discordapp.com/users/919863448320499753"
+                  >Galina#1872</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills">
+              <li>Html</li>
+              <li>Css</li>
+              <li>JS</li>
+              <li>Git</li>
+            </ul>
+          </section>
+
+          <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>South Ural State University</p>
+          </section>
+
+          <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <p>RS School 2022</p>
+          </section>
+
+          <section class="section none-border" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <a href="https://galinago.github.io/rsschool-cv/">CV</a>
+          </section>
+
+          <section class="section none-border" id="english">
+            <h2 class="section-title">English</h2>
+            <p>A2</p>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-contact">
+            <p>
+              &#169; 2022
+              <a href="https://github.com/GalinaGo">GalinaGo</a>
+            </p>
+          </div>
+          <div class="footer-logo">
+            <a href="https://rs.school/js/">
+              <img
+                src="../rsschool-cv-html/assets/svg/rs_school_js.svg"
+                alt="footer-logo"
+                width="100"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
