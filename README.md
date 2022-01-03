@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://GalinaGo.github.io/rsschool-cv/
